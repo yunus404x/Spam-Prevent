@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff97661f-62eb-4db4-8d8e-c22e455c0c8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="ff97661f-62eb-4db4-8d8e-c22e455c0c8b" name="Changes" comment="chrome extension">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +14,65 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001149083787177" />
+      <entry key="MS500" value="1.2897386434976683" />
+      <entry key="S2" value="2.6284990099779497" />
+      <entry key="S5" value="3.3442795515613235" />
+      <entry key="S10" value="3.6509484215661314" />
+      <entry key="S30" value="3.878578484136964" />
+      <entry key="S60" value="3.9386312745560805" />
+      <entry key="M2" value="3.9691492796946055" />
+      <entry key="M5" value="3.9876195447205904" />
+      <entry key="M10" value="3.9938030576163945" />
+      <entry key="M15" value="3.9958672114108715" />
+      <entry key="M30" value="3.9979328584963527" />
+      <entry key="H1" value="3.9989662423754235" />
+      <entry key="H2" value="3.9994830744607106" />
+      <entry key="H4" value="3.999741525547503" />
+      <entry key="D1" value="3.999956919301872" />
+      <entry key="W1" value="3.999993845574812" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9727664648634015" />
+      <entry key="MS500" value="1.2796361199547708" />
+      <entry key="S2" value="2.6176323525992564" />
+      <entry key="S5" value="3.337842521387621" />
+      <entry key="S10" value="3.6472630358205866" />
+      <entry key="S30" value="3.8772324552992585" />
+      <entry key="S60" value="3.93794261687577" />
+      <entry key="M2" value="3.968800965603757" />
+      <entry key="M5" value="3.987479252949381" />
+      <entry key="M10" value="3.9937327498958863" />
+      <entry key="M15" value="3.9958203035734856" />
+      <entry key="M30" value="3.9979093865506807" />
+      <entry key="H1" value="3.9989545018930057" />
+      <entry key="H2" value="3.9994772030917507" />
+      <entry key="H4" value="3.9997385895810416" />
+      <entry key="D1" value="3.9999564299349606" />
+      <entry key="W1" value="3.9999937756642936" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3,
@@ -36,6 +87,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -66,11 +118,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783495670696</updated>
-      <workItem from="1783495671658" duration="1016000" />
+      <workItem from="1783495671658" duration="3046000" />
     </task>
+    <task id="LOCAL-00001" summary="chrome extension">
+      <option name="closed" value="true" />
+      <created>1783496723747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783496723747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chrome extension">
+      <option name="closed" value="true" />
+      <created>1783496852911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783496852911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chrome extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="chrome extension" />
   </component>
 </project>
