@@ -6,23 +6,27 @@
 </head>
 <body>
   <div class="container">
-    <h2>Dark Pattern Detector</h2>
-    <div class="info-row">
-      <span class="label">Website:</span>
-      <span id="website" class="value">-</span>
+    <h2>🛡️ Dark Pattern Detector</h2>
+    
+    <div class="card">
+      <div class="info-row">
+        <span class="label">Website:</span>
+        <span id="website" class="value">-</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Patterns Found:</span>
+        <span id="patterns-found" class="value">-</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Confidence:</span>
+        <span id="confidence" class="value">-</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Status:</span>
+        <span id="status" class="value">Ready</span>
+      </div>
     </div>
-    <div class="info-row">
-      <span class="label">Patterns Found:</span>
-      <span id="patterns-found" class="value">-</span>
-    </div>
-    <div class="info-row">
-      <span class="label">Confidence:</span>
-      <span id="confidence" class="value">-</span>
-    </div>
-    <div class="info-row">
-      <span class="label">Status:</span>
-      <span id="status" class="value">Ready</span>
-    </div>
+
     <button id="rescan-btn">Rescan Page</button>
   </div>
   <script src="popup.js"></script>
