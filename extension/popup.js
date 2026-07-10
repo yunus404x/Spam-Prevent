@@ -13,7 +13,16 @@ async function updateUI() {
 
   chrome.storage.local.get("current_tab", (data) => {
     const results = data["current_tab"];
-    if (results && results.url === tab.url) {
+    const cleanUrl = (u) => {
+      try {
+        const parsed = new URL(u);
+        return (parsed.hostname + parsed.pathname).replace(/^www\./i, "").replace(/\/$/, "");
+      } catch (e) {
+        return u;
+      }
+    };
+
+    if (results && cleanUrl(results.url) === cleanUrl(tab.url)) {
       patternsFoundEl.textContent = results.totalFound;
       
       if (results.patterns && results.patterns.length > 0) {
